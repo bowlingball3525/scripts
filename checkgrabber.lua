@@ -68,6 +68,6 @@ if boombox.Parent == workspace then
 else
    wait(.3)
    local grabber = game.Players: GetPlayerFromCharacter (boombox.Parent) or boombox.Parent.Parent
-   game.Players.LocalPlayer.Character:SetPrimaryPartCFrame(grabber.Character.Head.CFrame + CFrame.new(5583.59717, 43.8460999, -17102.0215, 0.00152700639, -9.38605709e-08, 0.999998808, 5.37978515e-08, 1, 9.37785316e-08, -0.999998808, 5.36545883e-08, 0.00152700639))
+   game.Players.LocalPlayer.Character:SetPrimaryPartCFrame(grabber.Character.Head.CFrame + Vector3.new(0,3,0))
    notif("" .. grabber.DisplayName.." [@"..grabber.Name.."] is grabbing boomboxes")
 end
