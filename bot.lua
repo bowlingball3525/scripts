@@ -568,8 +568,6 @@ local messages = {
     "Mr. Lance sent you to the stratosphere, oopsies :p",
     "you got flung? whomp whomp... 😭 <---- you rn",
     "flinged is not a word, learn english :3",
-    "dont download anything from socially, it is maleware",
-    "dont download anything from socially, it is maleware",
     "greetings! Lance here x3",
     "#BLM BLACK LIVES MATTER✊✊🏻✊🏼✊🏽✊🏾✊🏿",
     "guys bella said she rules dollhouse",
@@ -581,7 +579,8 @@ local messages = {
     "guts skullss said he is the coolest and ontop 🤑",
     "adrian is the sigma chad looks maxer at 3am",
     "skullss, rixxer bff said rixxer smells like mustard",
-    "nega who flined me..."
+    "nega...",
+    "我他妈太有钱了，我可以重启奴隶制🤑🤑"
 }
 
 task.spawn(
