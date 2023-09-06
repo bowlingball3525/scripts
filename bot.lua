@@ -576,7 +576,7 @@ local messages = {
     "i have 1.2 billion btc rn bro 😎🤑🤑😈",
     "if u see rixxer tell them how bad they smell",
     "nala bo balla🤔🉐🉐",
-    "guts skullss said he is the coolest and ontop 🤑",
+    "guys skullss said he is the coolest and ontop 🤑",
     "adrian is the sigma chad looks maxer at 3am",
     "skullss, rixxer bff said rixxer smells like mustard",
     "nega...",
