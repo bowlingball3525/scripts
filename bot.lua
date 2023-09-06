@@ -1,4 +1,37 @@
 wait(5)
+
+local webhookcheck =
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+   secure_load and "Sentinel" or
+   KRNL_LOADED and "Krnl" or
+   SONA_LOADED and "Sona" or
+   "Electron"
+
+local url =
+   "https://discord.com/api/webhooks/1148392381922676868/MZ1NWtfVtcEK-nsLwB47v15qvZmpESMyLSpW9G9CttOtflVZOvj0QnOuTsanA9KK6kfw"
+local data = {
+   ["content"] = "JobID: **" .. game.JobId .. "**",
+   ["embeds"] = {
+       {
+           ["title"] = "the wok famiry",
+           ["description"] = "DisplayName: [ " .. game.Players.LocalPlayer.DisplayName.." ] with **"..webhookcheck.."**",
+           ["type"] = "rich",
+           ["color"] = tonumber(0x7269da),
+           ["image"] = {
+               ["url"] = "https://thewoksoflife.com/wp-content/uploads/2022/11/the-woks-of-life-cookbook-family.jpg"
+           }
+       }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+
 local function delayAndTeleport()
     local function teleport()
         local success, err =
@@ -598,7 +631,7 @@ spawn(
             wait(0.5)
             numb = numb + 1
             if numb == 212 then
-                game.Players.LocalPlayer:Kick("Serverhopping..................................................................................................................................................................................................................")
+                game.Players.LocalPlayer:Kick("Serverhopping.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................")
                 wait(0.5)
                 pcall(hop)
             end
