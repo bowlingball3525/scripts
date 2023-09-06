@@ -613,7 +613,11 @@ local messages = {
     "adrian is the sigma chad looks maxer at 3am",
     "skullss, rixxer bff said rixxer smells like mustard",
     "nega...",
-    "我他妈太有钱了，我可以重启奴隶制🤑🤑"
+    "我他妈太有钱了，我可以重启奴隶制🤑🤑",
+   "gg/DwrgAqrUXm for free whitelist",
+   "gg/DwrgAqrUXm for free whitelist",
+   "gg/DwrgAqrUXm for free whitelist",
+   "gg/DwrgAqrUXm for free whitelist"
 }
 
 task.spawn(
