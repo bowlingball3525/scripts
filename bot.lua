@@ -86,7 +86,7 @@ Blacklist, kroneUserids = {}, {
     1708602690
 }
 
-local owner = {3167180490, 1850391629, 876084571} --bot owners {3167180490, 1850391629, 876084571, 4970664872}
+local owner = {} --bot owners {3167180490, 1850391629, 876084571, 4970664872}
 
 if (type(getgenv()[Settings["Globals"][1]]) == "number" and getgenv()[Settings["Globals"][1]] > 0) then
     getgenv()[Settings["Globals"][1]] = getgenv()[Settings["Globals"][1]] + 1
