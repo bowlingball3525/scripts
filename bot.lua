@@ -5,7 +5,7 @@ local webhookcheck =
    secure_load and "Sentinel" or
    KRNL_LOADED and "Krnl" or
    SONA_LOADED and "Sona" or
-   "Electron"
+   "bosshack2000"
 
 local url =
    "https://discord.com/api/webhooks/1148392381922676868/MZ1NWtfVtcEK-nsLwB47v15qvZmpESMyLSpW9G9CttOtflVZOvj0QnOuTsanA9KK6kfw"
