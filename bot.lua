@@ -604,7 +604,6 @@ local messages = {
     "flinged is not a word, learn english :3",
     "greetings! Lance here x3",
     "#BLM BLACK LIVES MATTER✊✊🏻✊🏼✊🏽✊🏾✊🏿",
-    "guys bella said she rules dollhouse",
     "blasting the opps currently.",
     "😎",
     "i have 1.2 billion btc rn bro 😎🤑🤑😈",
@@ -615,10 +614,10 @@ local messages = {
     "skullss, rixxer bff said rixxer smells like mustard",
     "nega...",
     "我他妈太有钱了，我可以重启奴隶制🤑🤑",
-   "gg/DwrgAqrUXm for free whitelist",
-   "gg/DwrgAqrUXm for free whitelist",
-   "gg/DwrgAqrUXm for free whitelist",
-   "gg/DwrgAqrUXm for free whitelist"
+    "gg/DwrgAqrUXm for free whitelist",
+    "gg/DwrgAqrUXm for free whitelist",
+    "gg/DwrgAqrUXm for free whitelist",
+    "gg/DwrgAqrUXm for free whitelist"
 }
 
 task.spawn(
