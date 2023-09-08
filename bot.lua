@@ -1,5 +1,4 @@
-wait(2)
-
+wait(5)
 local function delayAndTeleport()
     local function teleport()
         local success, err =
@@ -12,7 +11,7 @@ local function delayAndTeleport()
         if not success then
             -- Send error to Discord Webhook
             --  local DiscordWebhookURL = "webhook trunated for privacy" -- webhook has been seized by GNAA agents.
-            local DiscordWebhookURL = "https://discord.com/api/webhooks/1148392381922676868/MZ1NWtfVtcEK-nsLwB47v15qvZmpESMyLSpW9G9CttOtflVZOvj0QnOuTsanA9KK6kfw"
+            local DiscordWebhookURL = ""
             local data = {
                 content = "Error occurred while teleporting: " .. tostring(err)
             }
@@ -39,7 +38,7 @@ local function delayAndTeleport()
     end
 
     -- Delay before teleporting
-    local delayTime = 15 -- Adjust the delay time (in seconds) as needed
+    local delayTime = 30 -- Adjust the delay time (in seconds) as needed
     wait(delayTime)
 
     -- Call the teleport function
@@ -84,8 +83,7 @@ Blacklist, kroneUserids = {}, {
     4017627909,
     83001975,
     1316769218,
-    1708602690,
-    4432945379
+    1708602690
 }
 
 local owner = {} --bot owners {3167180490, 1850391629, 876084571, 4970664872, 1562715452}
@@ -560,7 +558,7 @@ local messages = {
 task.spawn(
     function()
         while true do
-            wait(0.5)
+            wait(0.45)
             Chat(messages[math.random(1, #messages)])
         end
     end
@@ -572,6 +570,7 @@ spawn(
             wait(0.5)
             numb = numb + 1
             if numb == 212 then
+                game.Players.LocalPlayer:Kick("Serverhopping..................................................................................................................................................................................................................")
                 wait(0.5)
                 pcall(hop)
             end
