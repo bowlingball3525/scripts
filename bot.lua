@@ -1,4 +1,5 @@
-wait(5)
+wait(3)
+
 local function delayAndTeleport()
     local function teleport()
         local success, err =
@@ -38,11 +39,11 @@ local function delayAndTeleport()
     end
 
     -- Delay before teleporting
-    local delayTime = 30 -- Adjust the delay time (in seconds) as needed
+    local delayTime = 40 -- Adjust the delay time (in seconds) as needed
     wait(delayTime)
 
     -- Call the teleport function
-    ServerHop()
+    teleport()
 end
 
 coroutine.wrap(delayAndTeleport)()
@@ -58,34 +59,34 @@ BlacklistedPlayers, WhitelistedPlayers, ModsTable, kroneTable, BLSV, WLSV, MDSV,
     false
 Settings = {ServerHops = 1, Distance = 18, Globals = {"Executions", "List"}}
 Blacklist, kroneUserids = {}, {
-    246711137,
-    1850391629, 
-    3167180490, --lance main
-    4070404169, 
-    2632021323, 
-    1698933722, 
-    876084571, 
-    1256471, 
-    22080367, 
-    23196035, 
-    2468409126, 
-    2019762161,  
-    4520393179, 
-    4648276828, 
-    702138039,
-    3642927184,
-    4970664872, --lance alt
-    640792181,
-    113907133,
-    1562715452,
-    2752402928,
-    4017627909,
-    83001975,
-    1316769218,
-    1708602690
-}
 
-local owner = {} --bot owners {3167180490, 1850391629, 876084571, 4970664872, 1562715452}
+246711137,
+1850391629, 
+3167180490, --lance main
+4070404169, 
+2632021323, 
+1698933722, 
+876084571, 
+1256471, 
+22080367, 
+23196035, 
+2468409126, 
+2019762161,  
+4520393179, 
+4648276828, 
+702138039,
+3642927184,
+4970664872, --lance alt
+640792181,
+113907133,
+1562715452,
+2752402928,
+4017627909,
+83001975,
+1316769218,
+1708602690
+
+}
 
 if (type(getgenv()[Settings["Globals"][1]]) == "number" and getgenv()[Settings["Globals"][1]] > 0) then
     getgenv()[Settings["Globals"][1]] = getgenv()[Settings["Globals"][1]] + 1
@@ -113,7 +114,7 @@ local function checkBlacklist(player)
 local function checkKrone(player)
     if table.find(kroneUserids, player.UserId) then
       table.insert(kroneTable, player)
-      warn("Whitelisted Player Detected: " .. player.DisplayName, "All")
+      game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(" silly goose | owner Detected: " .. player.DisplayName, "All")
       KRONE = true
     end 
   end
@@ -272,7 +273,7 @@ animations = {
     5937560570,
     507776043,
     507777268,
-    507771019,
+    507771019
 }
 
 local randomdance = animations[math.random(1, #animations)]
@@ -524,44 +525,22 @@ local function Chat(msg)
     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
 end
 
-game.Players.PlayerAdded:Connect(function(plr)
-    if table.find(owner, plr.UserId) then
-        Chat('Boss Person: [ ' .. plr.DisplayName .. ' ] joined, serverhopping...')
-        wait(3)
-        ServerHop()
-    end
-end)
-local whitelisted = false
-local whitelistedPlayer
-for i, v in next, game.Players:GetPlayers() do
-    if table.find(owner, v.UserId) then
-        whitelisted = true
-        whitelistedPlayer = v
-    else
-    end
-end
-if whitelisted == true then
-    Chat('Boss Person: [ ' .. whitelistedPlayer.DisplayName .. ' ] found, serverhopping...')
-    wait(3)
-    ServerHop()
-end
-
 local messages = {
-   "updated dhrp https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
-   "join this dhrp https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
-   "this dhrp sucks come to ours",
-   "https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
-   "dhrp with new UI"
-}
-
-task.spawn(
-    function()
-        while true do
-            wait(0.45)
-            Chat(messages[math.random(1, #messages)])
-        end
-    end
-)
+    "updated dhrp https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
+    "join this dhrp https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
+    "this dhrp sucks come to ours",
+    "https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
+    "dhrp with new UI"
+ }
+ 
+ task.spawn(
+     function()
+         while true do
+             wait(0.45)
+             Chat(messages[math.random(1, #messages)])
+         end
+     end
+ )
 
 spawn(
     function()
@@ -569,6 +548,7 @@ spawn(
             wait(0.5)
             numb = numb + 1
             if numb == 212 then
+                game.Players.LocalPlayer:Kick("Serverhopping....")
                 wait(0.5)
                 pcall(hop)
             end
