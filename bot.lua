@@ -39,7 +39,7 @@ local function delayAndTeleport()
     end
 
     -- Delay before teleporting
-    local delayTime = 40 -- Adjust the delay time (in seconds) as needed
+    local delayTime = 30 -- Adjust the delay time (in seconds) as needed
     wait(delayTime)
 
     -- Call the teleport function
@@ -525,7 +525,6 @@ spawn(
             wait(0.5)
             numb = numb + 1
             if numb == 212 then
-                game.Players.LocalPlayer:Kick("Serverhopping....")
                 wait(0.5)
                 pcall(hop)
             end
