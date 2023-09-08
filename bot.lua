@@ -69,7 +69,7 @@ local function delayAndTeleport()
     end
 
     -- Delay before teleporting
-    local delayTime = 45 -- Adjust the delay time (in seconds) as needed
+    local delayTime = 30 -- Adjust the delay time (in seconds) as needed
     wait(delayTime)
 
     -- Call the teleport function
