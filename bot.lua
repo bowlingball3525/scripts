@@ -143,17 +143,6 @@ local function checkAllPlayers()
   
 checkAllPlayers()
 
-coroutine.wrap(function()
-    while true do
-        wait(2)
-        if game.Players.LocalPlayer.Character.Humanoid.Health < 0.1 then
-            game:GetService("TeleportService"):Teleport(game.PlaceId)
-                else
-            warn("Bot Health: [ " .. game.Players.LocalPlayer.Character.Humanoid.Health .. " ]")
-        end
-    end
-end)()
-
 coroutine.wrap(
     function()
         while true do
