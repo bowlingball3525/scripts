@@ -11,8 +11,8 @@ local data = {
    ["content"] = "Joined JobID: **" .. game.JobId .. "** For 200 Second(s)",
    ["embeds"] = {
        {
-           ["title"] = "the wok famiry 🉐㊗💮🉐㊙🉑🈶🈹🈚🈸🈺🆚🈷🈺🈷🈴🈲🅱",
-           ["description"] = "DisplayName: [ " .. game.Players.LocalPlayer.DisplayName.." ] with **"..webhookcheck.."**",
+           ["title"] = "the wok famiry 🉐㊗💮🉐㊙🉑🈶",
+           ["description"] = "Username: [ " .. game.Players.LocalPlayer.Name.." ] with **"..webhookcheck.."**",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
            ["image"] = {
