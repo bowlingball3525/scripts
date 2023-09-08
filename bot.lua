@@ -591,42 +591,11 @@ if whitelisted == true then
 end
 
 local messages = {
-    "✈🏢🏢💥",
-    "DUDE WHO FLINGED ME!!",
-    "meow meow meow meow",
-    "meow meow meow",
-    "meow meow",
-    "meow",
-    "greetings!",
-    "i have level 10 gyat chat",
-    "STOP FLINGED ME!",
-    "holy guacamole these bots",
-    "DUDDEE!!!!",
-    "🤯",
-    "🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤🐱‍👤",
-    "🐱‍🏍",
-    "peanutbutter",
-    "sigma chat looks maxing at 3am 🤯🤑🤑😎",
-    "KABOOM💥🤯💥🤯💥",
-    "Mr. Lance sent you to the stratosphere, oopsies :p",
-    "you got flung? whomp whomp... 😭 <---- you rn",
-    "flinged is not a word, learn english :3",
-    "greetings! Lance here x3",
-    "#BLM BLACK LIVES MATTER✊✊🏻✊🏼✊🏽✊🏾✊🏿",
-    "blasting the opps currently.",
-    "😎",
-    "i have 1.2 billion btc rn bro 😎🤑🤑😈",
-    "if u see rixxer tell them how bad they smell",
-    "nala bo balla🤔🉐🉐",
-    "guys skullss said he is the coolest and ontop 🤑",
-    "adrian is the sigma chad looks maxer at 3am",
-    "skullss, rixxer bff said rixxer smells like mustard",
-    "nega...",
-    "我他妈太有钱了，我可以重启奴隶制🤑🤑",
-    "gg/DwrgAqrUXm for free whitelist",
-    "gg/DwrgAqrUXm for free whitelist",
-    "gg/DwrgAqrUXm for free whitelist",
-    "gg/DwrgAqrUXm for free whitelist"
+   "updated dhrp https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
+   "join this dhrp https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
+   "this dhrp sucks come to ours",
+   "https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
+   "dhrp with new UI"
 }
 
 task.spawn(
