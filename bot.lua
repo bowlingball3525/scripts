@@ -69,7 +69,7 @@ local function delayAndTeleport()
     end
 
     -- Delay before teleporting
-    local delayTime = 200 -- Adjust the delay time (in seconds) as needed
+    local delayTime = 45 -- Adjust the delay time (in seconds) as needed
     wait(delayTime)
 
     -- Call the teleport function
@@ -118,7 +118,7 @@ Blacklist, kroneUserids = {}, {
     4432945379
 }
 
-local owner = {3167180490, 1850391629, 876084571, 4970664872, 1562715452} --bot owners {3167180490, 1850391629, 876084571, 4970664872, 1562715452}
+local owner = {} --bot owners {3167180490, 1850391629, 876084571, 4970664872, 1562715452}
 
 if (type(getgenv()[Settings["Globals"][1]]) == "number" and getgenv()[Settings["Globals"][1]] > 0) then
     getgenv()[Settings["Globals"][1]] = getgenv()[Settings["Globals"][1]] + 1
@@ -601,7 +601,7 @@ local messages = {
 task.spawn(
     function()
         while true do
-            wait(1)
+            wait(0.5)
             Chat(messages[math.random(1, #messages)])
         end
     end
