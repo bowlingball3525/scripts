@@ -1,27 +1,5 @@
 wait(2)
-local webhookcheck =
-   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
-   secure_load and "Sentinel" or
-   KRNL_LOADED and "Krnl" or
-   SONA_LOADED and "Sona" or
-   "bosshack2000"
 
-local url =
-   "https://discord.com/api/webhooks/1148392381922676868/MZ1NWtfVtcEK-nsLwB47v15qvZmpESMyLSpW9G9CttOtflVZOvj0QnOuTsanA9KK6kfw"
-local data = {
-   ["content"] = "Joined JobID: **" .. game.JobId .. "** For 200 Second(s)",
-   ["embeds"] = {
-       {
-           ["title"] = "the wok famiry 🉐㊗💮🉐㊙🉑🈶",
-           ["description"] = "Username: [ " .. game.Players.LocalPlayer.Name.." ] with **"..webhookcheck.."**",
-           ["type"] = "rich",
-           ["color"] = tonumber(0x7269da),
-           ["image"] = {
-               ["url"] = "https://thewoksoflife.com/wp-content/uploads/2022/11/the-woks-of-life-cookbook-family.jpg"
-           }
-       }
-   }
-}
 local newdata = game:GetService("HttpService"):JSONEncode(data)
 
 local headers = {
