@@ -1,11 +1,8 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v9h/dhrpvc/main/anticrash.lua", true))()
-
 wait(5)
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v9h/dhrpvc/main/anticrash.lua", true))()
-wait(1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bowlingball3525/scripts/main/tween.lua", true))()
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bowlingball3525/scripts/main/ToolSpam.lua", true))()
 wait(1)
 
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.5, Enum.EasingStyle.Linear)
@@ -62,24 +59,6 @@ coroutine.wrap(function()
         wait(0.45)
     end
 end)()
-
-task.spawn(
-    function()
-        while true do
-            wait()
-        for _, x in next, game.Players.LocalPlayer.Backpack:GetChildren() do
-            if x:IsA("Tool") then
-                x.Parent = game.Players.LocalPlayer.Character
-                x.Parent = workspace
-            end
-        end
-        game.ReplicatedStorage.GiveCat:FireServer()
-        game.ReplicatedStorage.GiveCat:FireServer()
-        game.ReplicatedStorage.GiveBox:FireServer()
-        game.ReplicatedStorage.GiveBox:FireServer()
-    end
-end
-)
 
 spawn(
     function()
