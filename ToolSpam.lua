@@ -1,5 +1,6 @@
 wait(5)
 warn("bot loaded")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/v9h/dhrpvc/main/anticrash.lua", true))()
 wait(1)
 task.spawn(
     function()
