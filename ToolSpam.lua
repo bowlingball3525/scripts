@@ -1,4 +1,5 @@
-        while true do
+wait(5)
+while true do
             wait()
         for _, x in next, game.Players.LocalPlayer.Backpack:GetChildren() do
             if x:IsA("Tool") then
