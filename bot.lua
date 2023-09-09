@@ -53,7 +53,7 @@ end
 coroutine.wrap(function()
     while true do
         Chat(messages[math.random(1, #messages)])
-        wait(0)
+        wait(0.45)
     end
 end)()
 
@@ -86,5 +86,5 @@ spawn(
     end
 )
 
-wait(30)
+wait(45)
 ServerHop()
