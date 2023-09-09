@@ -95,7 +95,5 @@ spawn(
     end
 )
 
-wait(60)
-game.Players.LocalPlayer:Kick("Serverhopping")
-wait(1.5)
+wait(30)
 ServerHop()
