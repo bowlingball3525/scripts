@@ -41,14 +41,16 @@ local function hop()
 end
 
 local messages = {
-    "chowsengwang24325",
-    "KABOOM!!!!",
-    "oopsies...",
-    "wong button... sorry",
-    "😡 <-- you rn",
-    "greetings, lance here!!",
-    "🖤🖤🖤🖤🖤🖤",
-    "✈🏢🏢💥💥💥💥💥💥💥😭😭😭😭"
+   "updated dhrp https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
+   "join this dhrp https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
+   "this dhrp sucks come to ours",
+   "https://www.roblox.com/games/13917889801/Dollhouse-RP-VC-VR",
+   "dhrp with new UI",
+   "dhrp with vr + vc",
+   "dhrp with antifling",
+   "tired of getting lagged? Join our dhrp",
+   "kaboom 26 billion new remotes fired ✈🏢🏢💥",
+   ":3"
 }
 
 local function Chat(msg)
