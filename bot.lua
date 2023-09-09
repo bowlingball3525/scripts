@@ -2,11 +2,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/v9h/dhrpvc/main/antic
 wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v9h/dhrpvc/main/anticrash.lua", true))()
 
-tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.5, Enum.EasingStyle.Linear)
-tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-77.74261474609375, 139.6412353515625, 52.56494903564453)}):Play()
-
-wait(1)
-
 local function ServerHop()
     function shop()
         pcall(function()
