@@ -66,5 +66,5 @@ spawn(
     end
 )
 
-wait(30)
+wait(120)
 ServerHop()
