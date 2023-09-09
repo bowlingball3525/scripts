@@ -3,15 +3,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/v9h/dhrpvc/main/antic
 wait(5)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/v9h/dhrpvc/main/anticrash.lua", true))()
-
-wait(1)
-
-tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.5, Enum.EasingStyle.Linear)
-tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-77.74261474609375, 139.6412353515625, 52.56494903564453)}):Play()
-
-wait(1)
-
-game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bowlingball3525/scripts/main/tween.lua", true))()
 
 local function ServerHop()
     function shop()
@@ -95,5 +87,7 @@ spawn(
     end
 )
 
-wait(45)
+wait(60)
+game.Players.LocalPlayer:Kick("Serverhopping")
+wait(1.5)
 ServerHop()
