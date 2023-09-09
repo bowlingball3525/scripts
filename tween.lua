@@ -1,4 +1,6 @@
 wait(5)
+warn("tweening...")
+wait(2)
 while true do
   wait()
 tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(3, Enum.EasingStyle.Linear)
