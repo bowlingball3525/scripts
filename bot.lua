@@ -30,23 +30,11 @@ local function hop()
 end
 
 local messages = {
-   "updated dhrp https://www.roblox.com/games/13917889801/Dollhouse-Roleplay-VC-VR",
-   "join this dhrp https://www.roblox.com/games/13917889801/Dollhouse-Roleplay-VC-VR",
-   "this dhrp sucks come to ours, https://www.roblox.com/games/13917889801/Dollhouse-Roleplay-VC-VR",
-   "https://www.roblox.com/games/13917889801/Dollhouse-Roleplay-VC-VR",
-   "dhrp with new UI, vc + vr, & antifling",
-   "tired of getting lagged & crashed? Join our dhrp",
-   ":3 https://www.roblox.com/games/13917889801/Dollhouse-Roleplay-VC-VR",
-   "join .gg/k9GWW4qYBP for the game link",
-    "join .gg/k9GWW4qYBP for the game link",
-    "join .gg/k9GWW4qYBP for the game link",
-    "join .gg/k9GWW4qYBP for the game link",
-    "join .gg/k9GWW4qYBP for the game link",
-    "join .gg/k9GWW4qYBP for the game link",
-    "join .gg/k9GWW4qYBP for the game link",
-    "join .gg/k9GWW4qYBP for the game link",
-    "join .gg/k9GWW4qYBP for the game link",
-    "join .gg/k9GWW4qYBP for the game link"
+   "BOMBED BY SAUDI ARABIA 💣💣💣",
+   "wth is a remote?? 🤔",
+   "HOLY MOLY BRO WTH",
+   "✈🏢🏢💥💥💥💥💥💥",
+   "KABOOOOOOMMMM!!!!"
 }
 
 local function Chat(msg)
