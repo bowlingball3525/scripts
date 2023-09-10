@@ -30,11 +30,11 @@ local function hop()
 end
 
 local messages = {
-   "BOMBED BY SAUDI ARABIA 💣💣💣",
-   "wth is a remote?? 🤔",
+   ".gg/ritual .gg/ritual .gg/ritual .gg/ritual",
+   "join .gg/ritual",
    "HOLY MOLY BRO WTH",
-   "✈🏢🏢💥💥💥💥💥💥",
-   "KABOOOOOOMMMM!!!!"
+   "come join .gg/ritual if ur cool liek that ahahahahah",
+   "Join .gg/ritual ciel is shaking on cam"
 }
 
 local function Chat(msg)
@@ -45,7 +45,7 @@ end
 coroutine.wrap(function()
     while true do
         Chat(messages[math.random(1, #messages)])
-        wait(0.45)
+        wait(1)
     end
 end)()
 
