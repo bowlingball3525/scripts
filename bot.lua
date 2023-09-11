@@ -60,7 +60,7 @@ spawn(
             numb = numb + 1
             if numb == 212 then
                 game.Players.LocalPlayer:Kick("Serverhopping")
-                wait(2)
+                wait(5)
                 pcall(hop)
             end
         end
