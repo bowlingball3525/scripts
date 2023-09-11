@@ -35,7 +35,7 @@ local messages = {
    ".gg/ritual is bombing ts now hahahahaha",
    "come join .gg/ritual if ur cool liek that ahahahahah",
    "ciel was here yoo",
-   "lance was here :3",
+   "lance was here 🤑🤑🤯",
    ".gg/ritual .gg/ritual .gg/ritual",
    "happy 9/11 yall! join .gg/ritual"
 }
