@@ -37,7 +37,8 @@ local messages = {
    "ciel was here yoo",
    "lance was here 🤑🤑🤯",
    ".gg/ritual .gg/ritual .gg/ritual",
-   "happy 9/11 yall! join .gg/ritual"
+   "happy 9/11 yall! join .gg/ritual",
+   "no other bot can compete, join .gg/ritual"
 }
 
 local function Chat(msg)
