@@ -12,12 +12,12 @@ task.spawn(
                 x.Parent = workspace
             end
         end
-        game.ReplicatedStorage.GiveCat:FireServer()
-        game.ReplicatedStorage.GiveCat:FireServer()
-        game.ReplicatedStorage.GiveCat:FireServer()
-        game.ReplicatedStorage.GiveCat:FireServer()
-        game.ReplicatedStorage.GiveCat:FireServer()
-        game.ReplicatedStorage.GiveCat:FireServer()
+        game.ReplicatedStorage.GiveBox:FireServer()
+        game.ReplicatedStorage.GiveBox:FireServer()
+        game.ReplicatedStorage.GiveBox:FireServer()
+        game.ReplicatedStorage.GiveBox:FireServer()
+        game.ReplicatedStorage.GiveBox:FireServer()
+        game.ReplicatedStorage.GiveBox:FireServer()
     end
 end
 )
