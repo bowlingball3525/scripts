@@ -17,6 +17,7 @@ task.spawn(
         game.ReplicatedStorage.GiveCat:FireServer()
         game.ReplicatedStorage.GiveCat:FireServer()
         game.ReplicatedStorage.GiveCat:FireServer()
+        game.ReplicatedStorage.GiveCat:FireServer()
     end
 end
 )
