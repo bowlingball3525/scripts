@@ -99,5 +99,5 @@ task.spawn(
 end
 )
 
-wait(30)
+wait(60)
 ServerHop()
