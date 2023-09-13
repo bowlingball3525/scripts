@@ -48,7 +48,7 @@ end
 coroutine.wrap(function()
     while true do
         Chat(messages[math.random(1, #messages)])
-        wait(1)
+        wait(0.45)
     end
 end)()
 
