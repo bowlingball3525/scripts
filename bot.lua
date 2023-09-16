@@ -30,14 +30,12 @@ local function hop()
 end
 
 local messages = {
-   "join .gg/ritual for the script",
-   "join .gg/ritual if ur cool",
-   ".gg/ritual is bombing ts now hahahahaha",
-   "come join .gg/ritual if ur cool liek that ahahahahah",
-   "ciel was here yoo",
-   "lance was here 🤑🤑🤯",
-   ".gg/ritual .gg/ritual .gg/ritual",
-   "no other bot can compete, join .gg/ritual"
+   "meow",
+   "im from niger bro",
+   "🍔🍳",
+   "🍰🍤",
+   "✈✈🏢🏢💥💥💥💥😭😭😭",
+   "shalom"
 }
 
 local function Chat(msg)
