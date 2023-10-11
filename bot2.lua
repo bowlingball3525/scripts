@@ -509,11 +509,7 @@ end
 
 game.Players.PlayerAdded:Connect(function(plr)
     if table.find(owner, plr.UserId) then
-        Chat('Boss Person: [ ' .. plr.DisplayName .. ' ] joined, serverhopping...')
-        wait(0.5)
-        game.Players.LocalPlayer:Kick("Serverhopping")
-        wait(2)
-        ServerHop()
+        Chat('Boss Person: [ ' .. plr.DisplayName .. ' ]')
     end
 end)
 local whitelisted = false
@@ -526,11 +522,7 @@ for i, v in next, game.Players:GetPlayers() do
     end
 end
 if whitelisted == true then
-    Chat('Boss Person: [ ' .. whitelistedPlayer.DisplayName .. ' ] found, serverhopping...')
-    wait(0.5)
-    game.Players.LocalPlayer:Kick("Serverhopping")
-    wait(2)
-    ServerHop()
+    Chat('Boss Person: [ ' .. whitelistedPlayer.DisplayName .. ' ]')
 end
 
 local messages = {
