@@ -532,7 +532,9 @@ local messages = {
    ".gg/NcYKWdwb for the script",
    "littlecaesarscrazybread 😮",
    "leaking bot script",
-   ".gg/NcYKWdwb"
+   ".gg/NcYKWdwb",
+   "so funny watching all these skidded bots",
+   "guys what is a DWORD? 😭"
 }
 
 task.spawn(
