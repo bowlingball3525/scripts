@@ -62,7 +62,8 @@ BlacklistedPlayers, WhitelistedPlayers, ModsTable, kroneTable, BLSV, WLSV, MDSV,
 Settings = {ServerHops = 1, Distance = 18, Globals = {"Executions", "List"}}
 Blacklist, kroneUserids = {}, {
     1326413045,
-    83001975
+    83001975,
+    640792181
 }
 
 local owner = {} -- serverhop whitelist (may crash ur alt)
