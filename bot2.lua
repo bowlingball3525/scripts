@@ -63,7 +63,8 @@ Settings = {ServerHops = 1, Distance = 18, Globals = {"Executions", "List"}}
 Blacklist, kroneUserids = {}, {
     1326413045,
     83001975,
-    640792181
+    640792181,
+    1850391629
 }
 
 local owner = {} -- serverhop whitelist (may crash ur alt)
