@@ -68,7 +68,12 @@ Blacklist, kroneUserids = {}, {
     1850391629
 }
 
-local owner = {1326413045} -- serverhop whitelist (may crash ur alt)
+local owner = {    -- serverhop whitelist (may crash ur alt)
+    1326413045,
+    83001975,
+    640792181,
+    1850391629
+}
 
 if (type(getgenv()[Settings["Globals"][1]]) == "number" and getgenv()[Settings["Globals"][1]] > 0) then
     getgenv()[Settings["Globals"][1]] = getgenv()[Settings["Globals"][1]] + 1
